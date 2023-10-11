@@ -21,13 +21,13 @@ public class CurrencyConverter {
                 System.out.print("How many pounds would you like to convert? ");
                 double pounds = scan.nextDouble();
                 double euro   = pounds * euroOverPoundRatio;
-                System.out.println("£" + pounds + " will give you " + euro + "€");
+                System.out.println("£" + pounds + " will give you €" + euro);
                 break;
             case 2:
                 System.out.print("How many euro would you like to convert? ");
                 euro   = scan.nextDouble();
                 pounds = euro * poundOverEuroRatio;
-                System.out.println(euro + "€ will give you £" + pounds);
+                System.out.println("€" + euro + "will give you £" + pounds);
                 break;
             case 0:
                 finished = true;

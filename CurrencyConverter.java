@@ -12,7 +12,7 @@ public class CurrencyConverter {
             System.out.println("What would you like to do?");
             System.out.println("   1 - Exchange pounds into euro");
             System.out.println("   2 - Exchange euro into pounds");
-            System.out.println("   0 - Exit the program");
+            System.out.println("   0 - Exit the program - you should try to exchange something!");
             System.out.println();
             System.out.print(  "> ");
             int choice = scan.nextInt();
